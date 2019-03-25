@@ -31,7 +31,9 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '3r!+(4!_$i+ak!5$7)8(2l^rlob5=w
 
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'morning-chamber-43494.herokuapp.com',
+]
 
 
 # Application definition
